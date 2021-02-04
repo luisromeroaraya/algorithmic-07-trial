@@ -20,6 +20,8 @@ Instructions
 * complete the exercises in a text file
 * send the file to your coach
 
+*I will be using [Python3](https://repl.it/languages/python3) to write and test the algorithms*
+
 I - list of random numbers
 - [ ] Write a function which returns an array of *n* random numbers, *n* being the **only** received **parameter**.
 
