@@ -57,3 +57,21 @@ function in_array(element,list_elements) {
 
 III - sort an array
 - [ ] Write a function which receives an array of ten random integers as **parameter** and returns an ascendantly ordered array of integers.
+```
+import random
+def randomOrderedArr():
+    array=[]
+    newArray=[]
+    n=int(input("Please enter the number of elements for an array (1-10):"))
+    for x in range(n):
+        array.append(random.randint(1,10))
+    for i in range(len(array)):
+        for j in range(0,len(array)-i-1):
+            if array[j] > array[j+1]:
+                array[j], array[j+1] = array[j+1], array[j]
+    return array
+
+array=randomOrderedArr()
+print(array)
+```
+
