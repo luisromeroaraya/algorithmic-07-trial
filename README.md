@@ -52,12 +52,33 @@ function in_array(element,list_elements) {
 	return $exist
 }
 ```
+
 - [x] with your word explain its purpose
 ```
-The algorithm looks inside a given list for a certain element and returns a boolean response.
+The algorithm creates a function which receives as parameters an array and an element and looks if the element is inside the array and then returns a boolean response.
 ```
 * translate it into *Python* and *Javascript*
-
+```
+// Python
+def in_array(element,list_elements):
+	exist=False
+	for x in list_elements:
+		if element == x:
+			exist=True
+	return exist
+```
+```
+// Javascript
+function in_array(element,list_elements) {
+	var exist = false;
+	for (i = 0; i < list_elements.length; i++) {
+		if (element == list_elements[i]) {
+			exist = true;
+		}
+	}
+	return exist;
+}
+```
 
 III - sort an array
 - [x] Write a function which receives an array of ten random integers as **parameter** and returns an ascendantly ordered array of integers.
