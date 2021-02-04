@@ -41,8 +41,6 @@ II - translate
 - [ ] The main goal of pseudo code is to write down the logic behind an algorithm, so that you can easily **translate** it into *human speech* or *code*.
 
 Given the algorithm below
-* with your word explain its purpose
-* translate it into *Python* and *Javascript*
 ```
 function in_array(element,list_elements) {
 	boolean exist = false
@@ -54,6 +52,12 @@ function in_array(element,list_elements) {
 	return $exist
 }
 ```
+- [x] with your word explain its purpose
+```
+The algorithm looks inside a given list for a certain element and returns a boolean response.
+```
+* translate it into *Python* and *Javascript*
+
 
 III - sort an array
 - [x] Write a function which receives an array of ten random integers as **parameter** and returns an ascendantly ordered array of integers.
