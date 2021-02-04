@@ -56,7 +56,7 @@ function in_array(element,list_elements) {
 ```
 
 III - sort an array
-- [ ] Write a function which receives an array of ten random integers as **parameter** and returns an ascendantly ordered array of integers.
+- [x] Write a function which receives an array of ten random integers as **parameter** and returns an ascendantly ordered array of integers.
 ```
 import random
 def randomOrderedArr():
