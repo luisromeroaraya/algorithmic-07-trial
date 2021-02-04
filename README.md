@@ -23,7 +23,19 @@ Instructions
 *I will be using [Python3](https://repl.it/languages/python3) to write and test the algorithms*
 
 I - list of random numbers
-- [ ] Write a function which returns an array of *n* random numbers, *n* being the **only** received **parameter**.
+- [x] Write a function which returns an array of *n* random numbers, *n* being the **only** received **parameter**.
+```
+import random
+def randomArr():
+    array=[]
+    n=int(input("Please enter the number of elements for an array (1-10):"))
+    for x in range(n):
+        array.append(random.randint(1,10))
+    return array
+
+array=randomArr()
+print(array)  
+```
 
 II - translate
 - [ ] The main goal of pseudo code is to write down the logic behind an algorithm, so that you can easily **translate** it into *human speech* or *code*.
